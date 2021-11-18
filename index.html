@@ -9,13 +9,39 @@
     <title>Aziz Mejri - Portfolio</title>
   </head>
   <body>
-    <header>
+    <header class="container">
       <h1 id="logo">Aziz Mejri</h1>
-      <button type="button" class="menu-bars">
-        <i class="fas fa-bars"></i>
-      </button>
+      <nav class="navbar">
+        <button class="hamburger-menu">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </button>
+
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Portoflio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"
+              >Contact <i class="far fa-envelope"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- <header>
+      <h1 id="logo">Aziz Mejri</h1>
       <nav id="desktop-nav">
-        <ul>
+         <button type="button" class="menu-bars">
+           <i class="fas fa-bars"></i>
+         </button>
+      
+        <ul class="nav-item">
           <li><a class="nav-link" href="#projects">Portoflio</a></li>
           <li><a class="nav-link" href="#about-me">About</a></li>
           <li>
@@ -25,7 +51,7 @@
           </li>
         </ul>
       </nav>
-    </header>
+    </header> -->
     <main>
       <div id="intro">
         <div class="intro-icon">
@@ -442,5 +468,7 @@
       src="https://kit.fontawesome.com/e966a3bd22.js"
       crossorigin="anonymous"
     ></script>
+    <!-- main.js -->
+  <script src="js/script.js"></script>
   </body>
 </html>
