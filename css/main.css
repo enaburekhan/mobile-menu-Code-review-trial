@@ -23,7 +23,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   color: white;
   width: 100vw;
 }
@@ -31,7 +31,7 @@ header {
 .navbar {
   width: 200px;
   height: 60%;
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   position: fixed;
   top: 0;
   right: -300px;
